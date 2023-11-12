@@ -74,3 +74,5 @@ const options = {
     startBtn.addEventListener('click', onClick);
   },
 };
+
+flatpickr('#datetime-picker', { ...options });
